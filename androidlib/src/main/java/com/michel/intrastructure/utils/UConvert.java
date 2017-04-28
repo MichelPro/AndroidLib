@@ -1,10 +1,6 @@
 package com.michel.intrastructure.utils;
 
 
-import android.view.View;
-
-import static com.michel.intrastructure.utils.UtilsKt.LogD;
-
 /**
  * 数据类型安全转换
  * Created by Michel on 2017/3/29.
