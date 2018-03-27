@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.michel.intrastructure.mvp.BaseActivity;
 import com.michel.intrastructure.mvp.IBasePresenter;
@@ -40,6 +41,7 @@ public abstract class MyBaseActivity<V extends MyIBaseView<P>, P extends IBasePr
     private void initLoadingDialog() {
         loadingDialog = new ProgressDialog(this);
         loadingDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        loadingDialog.setMessage("Loading");
         loadingDialog.setCancelable(false);
     }
 
@@ -62,5 +64,6 @@ public abstract class MyBaseActivity<V extends MyIBaseView<P>, P extends IBasePr
     public void requestError(String errorMsg) {
         hideLoading();
         Log.d("Sample-mvp", errorMsg);
+        Toast.makeText(this, errorMsg, Toast.LENGTH_SHORT).show();
     }
 }

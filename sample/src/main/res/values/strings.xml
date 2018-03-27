@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">sample</string>
+    <string name="login_sample">
+        测试登录成功：userName输入“Success”\n
+        测试登录失败：userName输入“Failure”
+    </string>
+    <string name="register_sample">
+        测试注册成功：userName输入“Success”\n
+        测试注册失败：userName输入“Failure”\n
+        测试注册超时：userName输入其他
+    </string>
 </resources>

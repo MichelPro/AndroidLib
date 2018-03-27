@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 25
@@ -11,7 +10,9 @@ android {
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
-
+        jackOptions {
+            enabled true
+        }
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
     }
@@ -20,6 +21,10 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 
@@ -32,5 +37,4 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
     compile project(':androidlib')
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
 }

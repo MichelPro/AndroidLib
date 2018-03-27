@@ -33,4 +33,5 @@ public class RegisterPresenter extends MyBasePresenter<RegisterContract.View> im
         getView().hideLoading();
         getView().registerFailure();
     }
+
 }

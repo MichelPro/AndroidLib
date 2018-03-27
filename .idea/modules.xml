@@ -5,9 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AndroidLib.iml" filepath="$PROJECT_DIR$/AndroidLib.iml" />
       <module fileurl="file://D:\AndroidProject\AndroidLib\MyApplication.iml" filepath="D:\AndroidProject\AndroidLib\MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidlib/androidlib.iml" filepath="$PROJECT_DIR$/androidlib/androidlib.iml" />
-      <module fileurl="file://D:\AndroidProject\AndroidLib\androidlib\androidlib.iml" filepath="D:\AndroidProject\AndroidLib\androidlib\androidlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
-      <module fileurl="file://D:\AndroidProject\AndroidLib\sample\sample.iml" filepath="D:\AndroidProject\AndroidLib\sample\sample.iml" />
     </modules>
   </component>
 </project>

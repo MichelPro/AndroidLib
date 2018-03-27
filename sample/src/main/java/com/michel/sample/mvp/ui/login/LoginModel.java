@@ -18,10 +18,17 @@ public class LoginModel extends BaseModel implements LoginContract.Model{
 
     @Override
     public void login(String userName, String password) {
+        // 超时就不模拟了
         // login
-        // loginSuccess
-        presenter.loginSuccess();
-        // loginFailure
-        presenter.loginFailure();
+        switch (userName) {
+            case "Success":
+                // loginSuccess
+                presenter.loginSuccess();
+                break;
+            case "Failure":
+                // loginFailure
+                presenter.loginFailure();
+                break;
+        }
     }
 }
