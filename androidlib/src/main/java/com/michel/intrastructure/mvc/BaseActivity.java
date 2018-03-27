@@ -1,10 +1,11 @@
-package com.michel.intrastructure.activity;
+package com.michel.intrastructure.mvc;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
 /**
+ * MVC-Base
  * Created by Michel on 2017/4/26.
  */
 

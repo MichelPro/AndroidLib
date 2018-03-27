@@ -1,11 +1,11 @@
-package com.michel.sample.activity;
+package com.michel.sample.mvc.activity;
 
 
 
 import android.os.Bundle;
 
 import com.michel.sample.R;
-import com.michel.sample.base.AppBaseActivity;
+import com.michel.sample.mvc.base.AppBaseActivity;
 
 public class MainActivity extends AppBaseActivity {
 
