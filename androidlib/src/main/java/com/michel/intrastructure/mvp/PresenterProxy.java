@@ -5,7 +5,6 @@ import android.util.Log;
 
 /**
  * MVP-Presenter Proxy
- * Created by Michel on 2018/3/27.
  */
 public class PresenterProxy<V extends IBaseView<P>, P extends IBasePresenter<V>> implements IPresenterProxy<V, P> {
 
@@ -47,7 +46,7 @@ public class PresenterProxy<V extends IBaseView<P>, P extends IBasePresenter<V>>
         }
     }
 
-    public void onDestory() {
+    public void onDestroy() {
         if (presenter != null) {
             onDetachView();
             presenter.onDestroyPresenter();

@@ -36,7 +36,7 @@ public abstract class BaseActivity<V extends IBaseView<P>, P extends IBasePresen
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        proxy.onDestory();
+        proxy.onDestroy();
     }
 
     @Override
