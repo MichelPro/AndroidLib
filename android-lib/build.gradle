@@ -13,7 +13,7 @@ ext {
     gitUrl = 'https://github.com/MichelPro/AndroidLib.git'
 
     //这就是library的版本号
-    libraryVersion = '0.1.0'
+    libraryVersion = '0.1.1'
 
     //这里随意，个人信息
     developerId = 'michel'
